@@ -7,7 +7,8 @@ pause
 '''
 
 filename = 'mostarip.bat'
-file_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop', filename)
+dir = 'c:\\Users\\Public\\Desktop'
+file_path = os.path.join(dir, filename)
 
 with open(file_path, 'w') as file:
     file.write(conteudo)
